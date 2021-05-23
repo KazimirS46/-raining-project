@@ -1,0 +1,156 @@
+body {
+	min-width: 1011px;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: "Arial", sans-serif;
+	color: #404040;
+	background-color: white;
+	/*border: 1px solid red;*/
+}
+
+.btn {
+	color: #834700;
+	text-decoration: none;
+	text-transform: uppercase;
+	/*border: 1px solid black;*/
+}
+
+.btn:hover {
+	color: #6a3900;
+}
+
+.btn:active {
+	color: rgba(106, 57, 0, 0.3);
+}
+
+.brown {
+	color: #ffffff;
+	background-color: #834700;
+}
+
+.brown:hover {
+	color: #ffffff;
+	background-color: #6a3900;
+}
+
+.brown:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #6a3900;
+}
+
+.press-review .btn {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.press-review .btn:hover {
+	color: #ffffff;
+	background-color: #a5a097;
+}
+
+.press-review .btn:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #8f8a81;
+}
+
+input, select, textarea {
+	border: none;
+	outline: none;
+	background-color: #e5b66c;
+}
+
+input:hover {
+	background-color: #d9ad66;
+}
+
+input:focus {
+	background-color: #ffffff;
+}
+
+select {
+	color: #000000;
+	opacity: 0.3;
+}
+
+
+
+
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	/*border: 1px solid gray;*/
+}
+
+.page-header,
+.page-footer {
+	padding-top: 60px;
+	color: #c3c3c3;
+	background-color: #000000;
+}
+
+.page-header {
+	min-height: 550px;
+	background-image: url(img/wheat-back.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-top,
+.footer-top {
+	display: flex;
+}
+
+.main-nav {
+	display: flex;
+	margin: auto;
+	margin-left: 61px;
+	padding: 0;
+	height: 40px;
+	list-style: none;
+	border: 1px solid gray;
+}
+
+.main-nav li {
+	text-transform: uppercase;
+	border: 1px solid orange;
+}
+
+.main-nav a {
+	mar
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid red;
+}
+
+.main-nav a:hover {
+	color: #ffcb78;
+}
+
+.main-nav a:active {
+	color: rgba(255, 203, 120, 0.3);
+}
+
+.promo p {
+	margin: 0;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 70px;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+.advantages {
+	background-color: #ffcb78;
+}
+
+.press-review {
+	background-color: #ede5d8;
+}
+
+.order {
+	background-color: #ffcb78;
+}
