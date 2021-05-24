@@ -7,71 +7,69 @@ body {
 	font-family: "Arial", sans-serif;
 	color: #404040;
 	background-color: white;
-	/*border: 1px solid red;*/
 }
 
-.btn {
-	color: #834700;
-	text-decoration: none;
-	text-transform: uppercase;
-	/*border: 1px solid black;*/
-}
+	.btn {
+		color: #834700;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
 
-.btn:hover {
-	color: #6a3900;
-}
+	.btn:hover {
+		color: #6a3900;
+	}
 
-.btn:active {
-	color: rgba(106, 57, 0, 0.3);
-}
+	.btn:active {
+		color: rgba(106, 57, 0, 0.3);
+	}
 
-.brown {
-	color: #ffffff;
-	background-color: #834700;
-}
+	.brown {
+		color: #ffffff;
+		background-color: #834700;
+	}
 
-.brown:hover {
-	color: #ffffff;
-	background-color: #6a3900;
-}
+	.brown:hover {
+		color: #ffffff;
+		background-color: #6a3900;
+	}
 
-.brown:active {
-	color: rgba(255, 255, 255, 0.3);
-	background-color: #6a3900;
-}
+	.brown:active {
+		color: rgba(255, 255, 255, 0.3);
+		background-color: #6a3900;
+	}
 
-.press-review .btn {
-	color: rgba(0, 0, 0, 0.3);
-}
+	.press-review .btn {
+		color: rgba(0, 0, 0, 0.3);
+	}
 
-.press-review .btn:hover {
-	color: #ffffff;
-	background-color: #a5a097;
-}
+	.press-review .btn:hover {
+		color: #ffffff;
+		background-color: #a5a097;
+	}
 
-.press-review .btn:active {
-	color: rgba(255, 255, 255, 0.3);
-	background-color: #8f8a81;
-}
+	.press-review .btn:active {
+		color: rgba(255, 255, 255, 0.3);
+		background-color: #8f8a81;
+	}
 
-input, select, textarea {
-	border: none;
-	outline: none;
-	background-color: #e5b66c;
-}
+	input, select, textarea {
+		border: none;
+		outline: none;
+		background-color: #e5b66c;
+	}
 
-input:hover {
-	background-color: #d9ad66;
-}
+	input:hover {
+		background-color: #d9ad66;
+	}
 
-input:focus {
-	background-color: #ffffff;
-}
+	input:focus {
+		background-color: #ffffff;
+	}
 
-select {
-	color: #000000;
-	opacity: 0.3;
-}
+	select {
+		color: #000000;
+		opacity: 0.3;
+	}
 
 
 
@@ -80,7 +78,13 @@ select {
 .container {
 	width: 800px;
 	margin: 0 auto;
-	/*border: 1px solid gray;*/
+	/*background-color: rgba(0, 36, 255, 0.3);*/
+}
+
+.page-header {
+	height: 550px;
+	background: url(img/wheat-back.jpg) 50% 100% no-repeat;
+	background-size: cover;
 }
 
 .page-header,
@@ -88,72 +92,59 @@ select {
 	padding-top: 60px;
 	color: #c3c3c3;
 	background-color: #000000;
-	/*border: 1px dotted yellowgreen;*/
 }
 
-.page-header {
-	min-height: 550px;
-	background-image: url(img/wheat-back.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+	.header-top {
+		display: flex;
+		justify-content: space-between;
+		/*background-color: rgba(150, 255, 0, 0.3);*/
+	}
 
-.header-top,
-.footer-top {
-	display: flex;
-}
+		img {
+			display: block;
+			/*background-color: rgba(255, 150, 0, 0.3);*/
+		}
 
-.main-nav {
-	display: flex;
-	width: 601px;
-	justify-content: space-between;
-	align-self: center;
-	margin: 0;
-	margin-left: 59px;
-	padding: 0;
-	list-style: none;
-	border-top: 1px solid rgba(255, 255, 255, 0.2);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
+		.main-nav {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 10px;
+			margin-bottom: 7px;
+			padding: 0;
+			list-style: none;
+			border-top: 1px solid rgba(255, 255, 255, 0.2);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+			/*background-color: rgba(255, 150, 0, 0.3);*/
+		}
 
-.main-nav li {
-	display: flex;
-	margin: 0;
-}
+		.main-nav a {
+			display: block;
+			padding: 21px 55px 20px 0;
+			line-height: 16px;
+			font-weight: bold;
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #ffffff;
+			/*background-color: rgba(255, 255, 255, 0.5);*/
+		}
 
-.main-nav a {
-	display: block;
-	margin: 0;
-	padding: 22px 54px 20px 0;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #ffffff;
-}
+		.main-nav li:nth-child(2) a {
+			padding-right: 54px;
+		}
 
-.main-nav li:last-child a {
-	padding-right: 1px;
-}
+		.main-nav li:last-child a {
+			padding-right: 0;
+		}
 
-.main-nav a:hover {
-	color: #ffcb78;
-}
+	.promo {
+		/*background-color: rgba(150, 255, 0, 0.3);*/
+	}
 
-.main-nav a:active {
-	color: rgba(255, 203, 120, 0.3);
-}
+		p {
+			/*background-color: rgba(254, 70, 70, 0.3);*/
+		}
 
-.promo p {
-	margin-top: 132px;
-	margin-bottom: 150px;
-	font-weight: bold;
-	font-size: 70px;
-	line-height: 70px;
-	font-family: "Arial", sans-serif;
-	text-align: center;
-	color: #ffffff;
-}
+
 
 .advantages {
 	background-color: #ffcb78;
