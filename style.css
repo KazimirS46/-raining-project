@@ -78,11 +78,17 @@ body {
 .container {
 	width: 800px;
 	margin: 0 auto;
-	/*background-color: rgba(0, 36, 255, 0.3);*/
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .page-header {
-	height: 550px;
+	min-height: 550px;
 	background: url(img/wheat-back.jpg) 50% 100% no-repeat;
 	background-size: cover;
 }
@@ -94,15 +100,15 @@ body {
 	background-color: #000000;
 }
 
-	.header-top {
+	/*.header-top {
 		display: flex;
 		justify-content: space-between;
-		/*background-color: rgba(150, 255, 0, 0.3);*/
+		
 	}
 
 		img {
 			display: block;
-			/*background-color: rgba(255, 150, 0, 0.3);*/
+			
 		}
 
 		.main-nav {
@@ -112,9 +118,7 @@ body {
 			margin-bottom: 7px;
 			padding: 0;
 			list-style: none;
-			border-top: 1px solid rgba(255, 255, 255, 0.2);
-			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-			/*background-color: rgba(255, 150, 0, 0.3);*/
+			
 		}
 
 		.main-nav a {
@@ -125,7 +129,8 @@ body {
 			text-decoration: none;
 			text-transform: uppercase;
 			color: #ffffff;
-			/*background-color: rgba(255, 255, 255, 0.5);*/
+			border-top: 1px solid rgba(255, 255, 255, 0.2);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 		}
 
 		.main-nav li:nth-child(2) a {
@@ -136,13 +141,90 @@ body {
 			padding-right: 0;
 		}
 
+		.main-nav a:hover {
+			border-bottom: 1px solid rgba(255, 255, 255, 1);
+		}
+
 	.promo {
-		/*background-color: rgba(150, 255, 0, 0.3);*/
+		
 	}
 
 		p {
-			/*background-color: rgba(254, 70, 70, 0.3);*/
+			font-size: 70px;
+			line-height: 70px;
+			font-weight: bold;
+			text-align: center;
+			color: white;
+			
+		}*/
+
+	.header-top {
+		margin-bottom: 125px;
+		background-color: rgba(0, 90, 0, 0.3);
+	}
+
+	.header-logo {
+		float: left;
+		width: 140px;
+		height: 76px;
+		background-color: rgba(255, 255, 0, 0.3);
+	}
+
+	.main-nav {
+		float: right;
+		margin: 0;
+		margin-top: 10px;
+		padding: 0;
+		width: 600px;
+		height: 57px;
+		list-style: none;
+		text-transform: uppercase;
+		background-color: rgba(255, 255, 0, 0.3);
+		border-top: 1px solid rgba(255, 255, 255, 0.2);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	}
+
+		.main-nav li {
+			float: left;
+			margin-right: 54px;
 		}
+
+		.main-nav li:last-child {
+			margin-right: 0;
+		}
+
+		.main-nav a {
+			display: inline-block;
+			padding-top: 22px;
+			padding-bottom: 20px;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 16px;
+			text-decoration: none;
+			color: rgba(255, 255, 255, 1);
+		}
+
+		.main-nav a:hover {
+			color: rgba(255, 203, 120, 1);
+			border-top: 1px solid rgba(255, 255, 255, 0.2);
+			border-bottom: 1px solid rgba(255, 255, 255, 1);
+		}
+
+		.main-nav a:active {
+			color: rgba(255, 203, 120, 0.3);
+			border-top: 1px solid rgba(255, 255, 255, 0.2);
+			border-bottom: 1px solid rgba(255, 255, 255, 1);
+		}
+
+	.promo p {
+		font-weight: bold;
+		font-size: 70px;
+		line-height: 70px;
+		text-align: center;
+		color: #ffffff;
+	}
+
+
 
 
 
