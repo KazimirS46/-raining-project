@@ -10,13 +10,19 @@ body {
 }
 
 	.btn {
-		color: #834700;
+		display: block;
+		padding: 15px 20px 15px 19px;
 		text-decoration: none;
 		text-transform: uppercase;
+		font-weight: bold;
+		line-height: 16px;
+		color: #834700;
+		border: 2px solid #834700;
 	}
 
 	.btn:hover {
 		color: #6a3900;
+		border: 2px solid #6a3900;
 	}
 
 	.btn:active {
@@ -78,7 +84,6 @@ body {
 .container {
 	width: 800px;
 	margin: 0 auto;
-	/*background-color: rgba(0, 0, 255, 0.3);*/
 }
 
 .clearfix::after {
@@ -102,14 +107,12 @@ body {
 
 	.header-top {
 		margin-bottom: 120px;
-		/*background-color: rgba(0, 90, 0, 0.3);*/
 	}
 
 	.header-logo {
 		float: left;
 		width: 140px;
 		height: 76px;
-		/*background-color: rgba(255, 255, 0, 0.3);*/
 	}
 
 	.main-nav {
@@ -121,7 +124,6 @@ body {
 		height: 57px;
 		list-style: none;
 		text-transform: uppercase;
-		/*background-color: rgba(255, 255, 0, 0.3);*/
 		border-top: 1px solid rgba(255, 255, 255, 0.2);
 		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	}
@@ -169,8 +171,110 @@ body {
 
 
 
+.new_products-and-price {
+	min-height: 1084px;
+}
 
-.advantages {
+	.section-title {
+		margin: 80px 0 75px 0;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 60px;
+		text-transform: uppercase;
+		color: black;
+	}
+
+	.catalog {
+		display: flex;
+		flex-grow: 1;
+	}
+
+	.catalog-item {
+		display: flex;
+		flex-direction: column;
+		width: 400px;
+		box-sizing: border-box;
+		padding: 0px 27px 0px 42px;
+		border-left: 1px solid #e5e5e5;
+		border-right: 1px solid #e5e5e5;
+	}
+
+	.catalog-item:first-child {
+		border-right: none;
+	}
+
+			.card-head h3 {
+				margin: 10px 0;
+				margin-bottom: 46px;
+				font-weight: bold;
+				font-size: 40px;
+				line-height: 40px;
+				text-transform: uppercase;
+				color: black;
+				
+			}
+
+		.card-middle {
+			position: relative;
+			padding: 0;
+		}
+
+			.new-product-table {
+				position: absolute;
+				top: -4px;
+				left: 180px;
+				border-collapse: collapse;
+				border: 1px solid #e5e5e5;
+			}
+
+			.new-product-table td {
+				line-height: 20px;
+				font-weight: bold;
+				text-transform: uppercase;
+				padding: 10px 15px 10px 10px;
+				color: #000000;
+				border: 1px solid #e5e5e5;
+			}
+
+			.card-middle p {
+				position: absolute;
+				top: 75px;
+				left: 180px;
+				font-size: 14px;
+				line-height: 24px;
+				color: #404040;
+			}
+
+			.card-middle img {
+				margin-left: 10px;
+			}
+
+		.card-description p {
+			margin: 0;
+			margin-bottom: 70px;
+		}
+
+		.card-button {
+			display: flex;
+			justify-content: space-between;
+			height: 50px;
+		}
+
+			.card-button b {
+				display: block;
+				padding: 17px 0;
+				line-height: 16px;
+				text-align: center;
+			}
+
+	
+
+		
+
+
+
+
+/*.advantages {
 	background-color: #ffcb78;
 }
 
@@ -180,4 +284,4 @@ body {
 
 .order {
 	background-color: #ffcb78;
-}
+}*/
