@@ -1,5 +1,5 @@
 body {
-	min-width: 1011px;
+	min-width: 1200px;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
@@ -9,9 +9,14 @@ body {
 	background-color: white;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+}
+
 	.btn {
 		display: block;
-		padding: 15px 20px 15px 19px;
+		padding: 15px 20px;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -92,18 +97,19 @@ body {
 	clear: both;
 }
 
+
 .page-header {
 	min-height: 490px;
 	background: url(img/wheat-back.jpg) 50% 100% no-repeat;
 	background-size: cover;
 }
 
-.page-header,
-.page-footer {
-	padding-top: 60px;
-	color: #c3c3c3;
-	background-color: #000000;
-}
+	.page-header,
+	.page-footer {
+		padding-top: 60px;
+		color: #c3c3c3;
+		background-color: #000000;
+	}
 
 	.header-top {
 		margin-bottom: 120px;
@@ -169,8 +175,6 @@ body {
 	}
 
 
-
-
 .new_products-and-price {
 	min-height: 1084px;
 }
@@ -189,96 +193,148 @@ body {
 		flex-grow: 1;
 	}
 
-	.catalog-item {
-		display: flex;
-		flex-direction: column;
-		width: 400px;
-		box-sizing: border-box;
-		padding: 0px 27px 0px 42px;
-		border-left: 1px solid #e5e5e5;
-		border-right: 1px solid #e5e5e5;
-	}
-
-	.catalog-item:first-child {
-		border-right: none;
-	}
-
-			.card-head h3 {
-				margin: 10px 0;
-				margin-bottom: 46px;
-				font-weight: bold;
-				font-size: 40px;
-				line-height: 40px;
-				text-transform: uppercase;
-				color: black;
-				
-			}
-
-		.card-middle {
-			position: relative;
-			padding: 0;
+		.catalog-item {
+			display: flex;
+			flex-direction: column;
+			width: 400px;
+			box-sizing: border-box;
+			padding-left: 34px;
+			padding-right: 25px;
+			border-left: 1px solid #e5e5e5;
+			border-right: 1px solid #e5e5e5;
 		}
 
-			.new-product-table {
-				position: absolute;
-				top: -4px;
-				left: 180px;
-				border-collapse: collapse;
-				border: 1px solid #e5e5e5;
+		.catalog-item:first-child {
+			border-right: transparent;
+		}
+
+				.card-head h3 {
+					margin: 10px 0;
+					margin-bottom: 40px;
+					font-weight: bold;
+					font-size: 40px;
+					line-height: 40px;
+					text-transform: uppercase;
+					color: black;
+				}
+
+			.card-middle {
+				position: relative;
+				padding: 0;
 			}
 
-			.new-product-table td {
+				.new-product-table {
+					position: absolute;
+					top: -5px;
+					left: 190px;
+					border-collapse: collapse;
+					border: 1px solid #e5e5e5;
+				}
+
+				.new-product-table td {
+					line-height: 20px;
+					font-weight: bold;
+					text-transform: uppercase;
+					padding: 10px 16px 10px 10px;
+					color: #000000;
+					border: 1px solid #e5e5e5;
+				}
+
+				.card-middle p {
+					position: absolute;
+					top: 75px;
+					left: 190px;
+					font-size: 14px;
+					line-height: 24px;
+					color: #404040;
+				}
+
+				.card-middle img {
+					margin-left: 10px;
+				}
+
+			.card-description {
+			}
+
+			.card-description p {
+				margin: 0;
+				margin-bottom: 60px;
+			}
+
+			.card-button {
+				display: flex;
+				justify-content: space-between;
+				height: 50px;
+			}
+
+				.card-button b {
+					display: block;
+					margin-left: 19px;
+					margin-right: 10px;
+					padding: 17px 0;
+					line-height: 16px;
+					text-align: center;
+				}
+
+	
+.advantages {
+	border: 1px solid #ffcb78;
+	background-color: #ffcb78;	
+}
+    .container-two {
+    	margin: 79px auto 100px auto;
+    	width: 1200px;
+    }
+
+	.advantages-list {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+	}
+
+		.advantages-item {
+			border-right: 1px solid rgba(0, 0, 0, 0.1);
+		}
+
+		.advantages-item:last-child {
+			border-right: none;
+		}
+
+			.advantages-content {
+				padding: 108px 80px 0 95px;
+			}
+
+				.first {
+					padding-left: 95px;
+					background: url("img/icon-brew.png") no-repeat 95px 0;
+				}
+
+				.second {
+					background: url("img/icon-matreshka.png") no-repeat 95px 0;
+				}
+
+				.third {
+					background: url("img/icon-thumbsup.png") no-repeat 95px 0;
+				}
+
+			.advantages-title {
+				margin: 0px;
+				margin-bottom: 28px;
+				font-size: 20px;
 				line-height: 20px;
 				font-weight: bold;
 				text-transform: uppercase;
-				padding: 10px 15px 10px 10px;
-				color: #000000;
-				border: 1px solid #e5e5e5;
+				color: black;
 			}
 
-			.card-middle p {
-				position: absolute;
-				top: 75px;
-				left: 180px;
-				font-size: 14px;
-				line-height: 24px;
+			.advantages-content p {
+				margin: 0;
+				font-size: 16px;
+				line-height: 30px;
 				color: #404040;
 			}
 
-			.card-middle img {
-				margin-left: 10px;
-			}
-
-		.card-description p {
-			margin: 0;
-			margin-bottom: 70px;
-		}
-
-		.card-button {
-			display: flex;
-			justify-content: space-between;
-			height: 50px;
-		}
-
-			.card-button b {
-				display: block;
-				padding: 17px 0;
-				line-height: 16px;
-				text-align: center;
-			}
-
-	
-
-		
-
-
-
-
-/*.advantages {
-	background-color: #ffcb78;
-}
-
-.press-review {
+/*.press-review {
 	background-color: #ede5d8;
 }
 
