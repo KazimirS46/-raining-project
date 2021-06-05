@@ -91,6 +91,18 @@ ul {
 	margin: 0 auto;
 }
 
+.level1 {
+	background-color: rgba(255, 44, 44, 0.5);
+}
+
+.level2 {
+	background-color: rgba(44, 44, 255, 0.5);
+}
+
+.level3 {
+	background-color: rgba(44, 255, 44, 0.5);
+}
+
 .clearfix::after {
 	content: "";
 	display: table;
@@ -179,7 +191,7 @@ ul {
 	min-height: 1084px;
 }
 
-	.section-title {
+	.new_products-and-price h2 {
 		margin: 80px 0 75px 0;
 		font-weight: bold;
 		font-size: 40px;
@@ -333,6 +345,72 @@ ul {
 				line-height: 30px;
 				color: #404040;
 			}
+
+
+.history h2 {
+	margin: 0;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 60px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.history-title {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: black;
+}
+
+	.history-source {
+		font-size: 16px;
+		font-weight: normal;
+		text-transform: none;
+		color: #444444;
+	}
+
+	.history-source a {
+		color: #834700;
+	}
+
+	.history-source a:hover {
+		color: #6a3900;
+	}
+
+	.history-source a:active {
+		color: #cab7a2;
+	}
+
+.history dd {
+	position: relative;
+	min-height: 101px;
+	margin: 0;
+	margin-bottom: 60px;
+	padding: 0;
+	padding-right: 310px;
+}
+
+	.history dd img {
+		position: absolute;
+		top: 10px;
+		right: 0;
+		width: 200px;
+		height: 101px;
+	}
+
+	.history dd p {
+		margin: 0;
+		line-height: 30px;
+	}
+
+
 
 /*.press-review {
 	background-color: #ede5d8;
