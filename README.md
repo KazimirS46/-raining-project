@@ -1,1 +1,1 @@
-# -raining-project
+# Training-project
